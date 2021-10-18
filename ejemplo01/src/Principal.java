@@ -19,7 +19,8 @@ public class Principal {
         int resultado_perimetro=cuadrado.calcularPerimetro();//declaro variable resultado_perimetro
                                                         //como entero y cargo el valor de retorno
                                                         //del metodo "calculaArea
-        System.out.println("La superficie total del cuadrado es :" + resultado_area);
+        System.out.println("La area total del cuadrado es :" + resultado_area);
         System.out.println("El perimetro total del cuadrado es : " + resultado_perimetro);
+
     }
 }
