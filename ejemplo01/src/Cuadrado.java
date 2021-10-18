@@ -1,12 +1,16 @@
 public class Cuadrado {
     int lado=0;
 //---------------------------------------------------------------------
-    void calcularArea(){   
-
+    public int calcularArea(){   
+        int area=0;
+        area=lado*lado;
+        return area;
     }
 //---------------------------------------------------------------------
-    void calcularPerimetro(){
+    public int calcularPerimetro(){
+        int perimetro=0;
 
+        return perimetro;
     }
     
 }
